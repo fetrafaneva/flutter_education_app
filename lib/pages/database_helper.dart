@@ -141,7 +141,7 @@ class DatabaseHelper {
     required String prenom,
     required String dateNaissance,
     required String sexe,
-    required String numero, // Nouveau champ pour le numéro
+    required String numero,
     required int classeId,
   }) async {
     final db = await database;
@@ -152,7 +152,7 @@ class DatabaseHelper {
         'prenom': prenom,
         'date_naissance': dateNaissance,
         'sexe': sexe,
-        'numero': numero, // Enregistrement du numéro
+        'numero': numero,
         'classe_id': classeId,
       },
       conflictAlgorithm: ConflictAlgorithm.replace,
@@ -269,7 +269,7 @@ class DatabaseHelper {
   Future<void> insertNote({
     required int eleveId,
     required int evaluationId,
-    required int matiereId, // Ajout de matiereId ici
+    required int matiereId,
     required double note,
     String? commentaire,
   }) async {
@@ -279,7 +279,7 @@ class DatabaseHelper {
       {
         'eleve_id': eleveId,
         'evaluation_id': evaluationId,
-        'matiere_id': matiereId, // Insertion de matiereId
+        'matiere_id': matiereId,
         'note': note,
         'commentaire': commentaire,
       },
@@ -321,7 +321,7 @@ class DatabaseHelper {
 
   Future<List<Map<String, dynamic>>> getEvaluationsByClasse(
       int classeId) async {
-    final db = await database; // Ensure you get the database instance
+    final db = await database;
     return await db.query(
       'Evaluation',
       where: 'classe_id = ?',
@@ -331,8 +331,7 @@ class DatabaseHelper {
 
   Future<List<Map<String, dynamic>>> getEvaluationsByMatiere(
       int matiereId) async {
-    final db =
-        await database; // Assurez-vous d'obtenir votre base de données ici
+    final db = await database;
     final List<Map<String, dynamic>> result = await db
         .query('Evaluation', where: 'matiere_id = ?', whereArgs: [matiereId]);
     return result;
@@ -358,7 +357,7 @@ class DatabaseHelper {
       int evaluationId) async {
     final db = await database;
 
-    // Assuming you want to join the Note table with Matiere and Evaluation
+    // join the Note table with Matiere and Evaluation
     final result = await db.rawQuery('''
     SELECT m.id, m.nom, m.coef, n.note, n.commentaire
     FROM Matiere m
@@ -416,14 +415,13 @@ class DatabaseHelper {
   Future<int> getClassIdByName(String className) async {
     final db = await database;
     final List<Map<String, dynamic>> results = await db.query(
-      'Classe', // Remplacez 'class' par 'Classe'
+      'Classe',
       where: 'nom = ?',
       whereArgs: [className],
     );
 
     if (results.isNotEmpty) {
-      return results
-          .first['id']; // Assurez-vous que 'id' est le nom de votre champ d'ID
+      return results.first['id'];
     } else {
       throw Exception('Classe non trouvée');
     }
@@ -433,12 +431,10 @@ class DatabaseHelper {
     return await getElevesByClasse(classeId);
   }
 
-  // Ajoutez cette méthode à votre classe DatabaseHelper
   Future<String?> getClasseNomById(int classeId) async {
-    final db =
-        await database; // Assurez-vous d'initialiser votre base de données
+    final db = await database;
     final List<Map<String, dynamic>> result = await db.query(
-      'classe', // Remplacez 'classe' par le nom réel de votre table de classe
+      'classe',
       where: 'id = ?',
       whereArgs: [classeId],
     );
@@ -466,31 +462,29 @@ class DatabaseHelper {
   }
 
   Future<void> deleteEleve(int eleveId) async {
-    final db =
-        await database; // Assurez-vous d'obtenir l'instance de la base de données
+    final db = await database;
     await db.delete(
-      'Eleve', // Nom de la table
-      where: 'id = ?', // Condition pour le delete
-      whereArgs: [eleveId], // ID de l'élève à supprimer
+      'Eleve',
+      where: 'id = ?',
+      whereArgs: [eleveId],
     );
   }
 
   Future<void> updateEleve(Map<String, dynamic> eleve) async {
-    final db = await database; // Retrieve your database instance
+    final db = await database;
 
     await db.update(
-      'eleve', // Table name
-      eleve, // The updated student data
-      where: 'id = ?', // Specify which student to update
-      whereArgs: [eleve['id']], // Arguments for the where clause
+      'eleve',
+      eleve,
+      where: 'id = ?',
+      whereArgs: [eleve['id']],
     );
   }
 
   Future<void> deleteMatiere(int matiereId) async {
-    final db =
-        await database; // Ensure 'database' is initialized properly in DatabaseHelper
+    final db = await database;
     await db.delete(
-      'Matiere', // Replace 'matieres' with the actual name of your table if it's different
+      'Matiere',
       where: 'id = ?',
       whereArgs: [matiereId],
     );
@@ -546,7 +540,7 @@ class DatabaseHelper {
         'titre': titre,
         'contenu': contenu,
         'date_creation': DateTime.now().toIso8601String(),
-        'statut': 0, // Par exemple, statut par défaut
+        'statut': 0,
       },
     );
   }
@@ -571,18 +565,17 @@ class DatabaseHelper {
   }
 
   Future<int> updateMatiere(int id, String nom, double coef) async {
-    final db =
-        await database; // Assurez-vous que la méthode `database` retourne l'instance de la base de données
+    final db = await database;
 
     // Met à jour la matière en fonction de son identifiant
     return await db.update(
-      'matiere', // Nom de la table
+      'matiere',
       {
         'nom': nom,
         'coef': coef,
       },
-      where: 'id = ?', // Condition de sélection pour identifier la matière
-      whereArgs: [id], // Argument correspondant à l'ID de la matière
+      where: 'id = ?',
+      whereArgs: [id],
     );
   }
 

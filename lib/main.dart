@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/Dashboard.dart';
-import 'package:myapp/pages/home.dart'; // Assurez-vous que le fichier Dashboard est correctement importé
+import 'package:myapp/pages/home.dart'; 
 
 void main() {
   runApp(const MyApp());
