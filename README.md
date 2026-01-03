@@ -95,11 +95,11 @@ To run the project in your local environment, follow these steps:
 ## 📸 Screenshots
 
 ### 🔐 Login
-![Login Screen](assets/readme/login.png)
+![Login Screen](assets/readme/Screenshot_1744980018.png)
 
 ### 🧑‍🏫 Dashboard
-![Dashboard](assets/readme/dashboard.png)
+![Dashboard](assets/readme/Screenshot_1744980018.png)
 
 ### 👩‍🎓 Student Management
-![Students](assets/readme/students.png)
+![Students](assets/readme/Screenshot_1744980018.png)
 
