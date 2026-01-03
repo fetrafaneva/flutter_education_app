@@ -94,8 +94,10 @@ To run the project in your local environment, follow these steps:
 
 ### 🖼️ Image principale
 
-<div style="display: flex; justify-content: center; gap: 100px; align-items: flex-start;">
-  <img src="assets/readme/Sign Up page.png" alt="Image 1" width="200" />
-  <img src="assets/readme/Sign In page.png" alt="Image 2" width="200" />
-</div>
+<p align="center">
+  <img src="assets/readme/Sign Up page.png" alt="Sign Up" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
+  <img src="assets/readme/Sign In page.png" alt="Sign In" width="200" />
+</p>
+
 
