@@ -94,4 +94,4 @@ To run the project in your local environment, follow these steps:
 
 ### 🖼️ Image principale
 
-<img src="assets/Dashboard class/image1.png" alt="Image 1" width="300" />
+<img src="assets/readme/Dashboard class.png" alt="Image 1" width="300" />
