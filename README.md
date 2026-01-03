@@ -94,4 +94,7 @@ To run the project in your local environment, follow these steps:
 
 ### 🖼️ Image principale
 
-<img src="assets/readme/Dashboard class.png" alt="Image 1" width="200" />
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+  <img src="assets/readme/Sign Un page.png" alt="Image 1" width="200" />
+  <img src="assets/readme/Sign Ip page.png" alt="Image 2" width="200" />
+</div>
