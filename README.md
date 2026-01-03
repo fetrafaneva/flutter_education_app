@@ -73,3 +73,23 @@ During this project, I gained strong experience in mobile application developmen
 Each part of this project strengthened my ability to analyze requirements, design mobile solutions, and document technical work.
 It was not only about coding, but also about understanding how technology can support education and teachers’ daily work.
 
+## How can it be improved?
+
+- Add role management (admin / teacher)
+- Integrate attendance tracking
+- Connect to a remote backend
+
+## Running the Project
+
+To run the project in your local environment, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/fetrafaneva/flutter_education_app.git`
+2. Install dependencies:
+       `flutter pub get`
+   
+3. Run the application:
+       `flutter run`
+
+## 🍿 Preview
+
+https://github.com/
