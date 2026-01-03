@@ -90,16 +90,8 @@ To run the project in your local environment, follow these steps:
 3. Run the application:
        `flutter run`
 
-## 🍿 Preview
-
 ## 📸 Screenshots
 
-### 🔐 Login
-![Login Screen](assets/readme/Screenshot_1744980018.png)
+### 🖼️ Image principale
 
-### 🧑‍🏫 Dashboard
-![Dashboard](assets/readme/Screenshot_1744980018.png)
-
-### 👩‍🎓 Student Management
-![Students](assets/readme/Screenshot_1744980018.png)
-
+<img src="assets/Dashboard class/image1.png" alt="Image 1" width="300" />
