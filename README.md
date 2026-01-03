@@ -52,3 +52,24 @@ Special attention was given to data organization, user navigation, and form vali
 
 Throughout the development, I documented each step as part of my academic mémoire, which helped me better understand the system and improve my technical and analytical skills.
 
+## 📚 What I Learned
+
+During this project, I gained strong experience in mobile application development and educational system design.
+
+### Authentication & User Management:
+
+- **Secure Access**: I learned how to implement user authentication and protect application features.
+
+- **Session Logic**: Managing user sessions helped me understand access control in mobile apps.
+
+### Flutter & Dart Development
+
+- **UI Construction**: I learned how to build structured screens using Flutter widgets.
+
+- **State Handling:**: Managing application state improved my understanding of dynamic UI updates.
+
+### 📈 Overall Growth:
+
+Each part of this project strengthened my ability to analyze requirements, design mobile solutions, and document technical work.
+It was not only about coding, but also about understanding how technology can support education and teachers’ daily work.
+
