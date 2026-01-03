@@ -92,4 +92,14 @@ To run the project in your local environment, follow these steps:
 
 ## 🍿 Preview
 
-https://github.com/
+## 📸 Screenshots
+
+### 🔐 Login
+![Login Screen](assets/readme/login.png)
+
+### 🧑‍🏫 Dashboard
+![Dashboard](assets/readme/dashboard.png)
+
+### 👩‍🎓 Student Management
+![Students](assets/readme/students.png)
+
