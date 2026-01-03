@@ -100,4 +100,5 @@ To run the project in your local environment, follow these steps:
   <img src="assets/readme/Sign In page.png" alt="Sign In" width="200" />
 </p>
 
+The authentication page allows users to log in or sign up. Users can access their account easily using their email and password.
 
