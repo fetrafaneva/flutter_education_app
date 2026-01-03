@@ -1,16 +1,29 @@
-# myapp
+# 🥷🏽 Flutter Education App
 
-A new Flutter project.
+This project is a mobile application for teachers built with Flutter.
+The application helps teachers manage educational activities such as classes, students, subjects, grades, and evaluations through a secure and easy-to-use mobile interface.
 
-## Getting Started
+It was developed as an academic project (Mémoire) and focuses on improving the digital management of teaching activities.
 
-This project is a starting point for a Flutter application.
+## 📦 Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+### Mobile:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `Flutter`
+- `Dart`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Backend:
+
+- `Sqflite`
+
+### UI & Tools:
+
+- `Material Design`
+- `Form Validation`
+- `State Management`
+
+## 🦄 Features
+
+Here's what you can do with Flutter Education App:
+
+- **User Authentication**: Teachers can securely log in to access the application and their personal data.
