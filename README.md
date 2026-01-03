@@ -92,8 +92,6 @@ To run the project in your local environment, follow these steps:
 
 ## 📸 Screenshots
 
-### 🖼️ Image principale
-
 <p align="center">
   <img src="assets/readme/Sign Up page.png" alt="Sign Up" width="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
@@ -102,3 +100,22 @@ To run the project in your local environment, follow these steps:
 
 The authentication page allows users to log in or sign up. Users can access their account easily using their email and password.
 
+<p align="center">
+  <img src="assets/readme/Sign Up page.png" alt="Sign Up" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
+  <img src="assets/readme/Sign In page.png" alt="Sign In" width="200" />
+</p>
+
+The application offers two types of login methods to ensure both accessibility and security for users.
+
+### Email & Password Login
+
+This screen allows users to access the application by entering their email address and password.
+All required fields must be completed before tapping the “Log In” button.
+The simple and clean design provides an intuitive and user-friendly login experience.
+
+### Security Code Login
+
+This screen enables users to authenticate using a personal security code.
+The numeric keypad allows fast and secure input, while the delete button helps correct any mistakes.
+This method adds an extra layer of protection and is ideal for quick access.
