@@ -178,7 +178,7 @@ This section displays a student’s grade tracking with the student’s name sho
 ### Class Results Management Page.
 The purpose of this section is to provide an interface for managing the academic results of different classes. It allows the user to:
 
-1. View general class information:
+View general class information:
 
 - The number of subjects associated with each class.
 
@@ -186,7 +186,7 @@ The purpose of this section is to provide an interface for managing the academic
 
 - The total number of students per class.
 
-2. Access specific management for each class:
+Access specific management for each class:
 
 - By selecting a class, the user can view or modify the subjects, assessments, or students’ results associated with that class.
 
@@ -199,7 +199,7 @@ This page functions as a dashboard to organize and navigate school data by class
 ### Student Results Management Page.
 The main features it offers are:
 
-1. Display of general class information:
+Display of general class information:
 
 - Number of subjects taught in this class.
 
@@ -207,7 +207,7 @@ The main features it offers are:
 
 - Number of students enrolled in the class.
 
-2. Student list:
+Student list:
 
 - Each student is listed by number and full name.
 
