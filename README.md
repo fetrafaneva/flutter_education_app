@@ -220,3 +220,12 @@ This section displays a student’s detailed academic performance, showing their
 It provides the overall average and the student’s rank within the class.
 A chart allows for a quick visualization of the student’s strengths and weaknesses.
 A button enables generating a PDF report for sharing or printing.
+
+<p align="center">
+  <img src="assets/readme/search page.png" alt="Sign Up" width="200" />
+</p>
+
+### Student search page.
+This page allows users to search for a student by name, ID, or other criteria.
+It displays the search results in a clear list, making it easy to select a student and access their detailed information.
+
