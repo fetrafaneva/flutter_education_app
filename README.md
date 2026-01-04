@@ -229,3 +229,20 @@ A button enables generating a PDF report for sharing or printing.
 This page allows users to search for a student by name, ID, or other criteria.
 It displays the search results in a clear list, making it easy to select a student and access their detailed information.
 
+<p align="center">
+  <img src="assets/readme/memo section.png" alt="Sign Up" width="200" />
+</p>
+
+### Notes / Memo Page
+This page allows users to create, view, and manage notes or memos.
+Users can quickly add new notes, edit existing ones, or delete notes they no longer need.
+The interface ensures that all notes are easily accessible and organized for quick reference.
+
+<p align="center">
+  <img src="assets/readme/file share.png" alt="Sign Up" width="200" />
+</p>
+
+### Data Import & Export Page
+This page allows users to import and export data easily.
+Users can upload data files to update the system or download existing data for backup, sharing, or offline use.
+The interface ensures a smooth and secure process for managing data transfers.
