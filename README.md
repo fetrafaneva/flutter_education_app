@@ -101,9 +101,9 @@ To run the project in your local environment, follow these steps:
 The authentication page allows users to log in or sign up. Users can access their account easily using their email and password.
 
 <p align="center">
-  <img src="assets/readme/Sign Up page.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/auth PIN.png" alt="Sign Up" width="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
-  <img src="assets/readme/Sign In page.png" alt="Sign In" width="200" />
+  <img src="assets/readme/auth email.png" alt="Sign In" width="200" />
 </p>
 
 The application offers two types of login methods to ensure both accessibility and security for users.
