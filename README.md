@@ -246,3 +246,12 @@ The interface ensures that all notes are easily accessible and organized for qui
 This page allows users to import and export data easily.
 Users can upload data files to update the system or download existing data for backup, sharing, or offline use.
 The interface ensures a smooth and secure process for managing data transfers.
+
+<p align="center">
+  <img src="assets/readme/help page.png" alt="Sign Up" width="200" />
+</p>
+
+### Application Help Page
+This page provides users with guidance on how to use the application.
+It includes instructions, tips, and explanations of the features to ensure a smooth and effective user experience.
+Users can quickly find answers to common questions and understand how to navigate the app efficiently.
