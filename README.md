@@ -152,6 +152,24 @@ This application page displays the management of a class (here, “Seconde”) w
   <img src="assets/readme/evaluation.png" alt="Sign In" width="200" />
 </p>
 
-### Student Management Page
-Here is the Student Management Page and the Class Subject Management Page for a specific class.
+### Subject and Assessment Management Page
+Here is the Assessment Management Page and the Class Subject Management Page for a specific class.
+
+<p align="center">
+  <img src="assets/readme/note.png" alt="Sign Up" width="200" />
+</p>
+
+### Interface for adding a grade for a student.
+This feature allows teachers to add a grade for a student. The user can select the subject and semester, enter the student’s score, and add a comment. Once validated, the grade is saved to help track and manage student academic performance efficiently.
+
+<p align="center">
+  <img src="assets/readme/info_eleve.png" alt="Sign Up" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
+  <img src="assets/readme/info_eleve2.png" alt="Sign In" width="200" />
+</p>
+
+### Page for displaying a student’s grades and information.
+This section displays a student’s grade tracking with the student’s name shown at the top. A table lists the subjects and their corresponding grades, with icons to edit or delete each grade. A selector allows the user to choose the assessment, and a floating action button at the bottom right is used to add a new grade. The interface is clear and easy to use.
+
+
 
