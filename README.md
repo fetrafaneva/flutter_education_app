@@ -171,5 +171,26 @@ This feature allows teachers to add a grade for a student. The user can select t
 ### Page for displaying a student’s grades and information.
 This section displays a student’s grade tracking with the student’s name shown at the top. A table lists the subjects and their corresponding grades, with icons to edit or delete each grade. A selector allows the user to choose the assessment, and a floating action button at the bottom right is used to add a new grade. The interface is clear and easy to use.
 
+<p align="center">
+  <img src="assets/readme/School results.png" alt="Sign Up" width="200" />
+</p>
+
+### Results Management Page.
+The purpose of this page is to provide an interface for managing the academic results of different classes. It allows the user to:
+
+1. View general class information:
+
+       - The number of subjects associated with each class.
+       
+       - The current school year.
+       
+       - The total number of students per class.
+
+2. Access specific management for each class:
+
+       - By selecting a class, the user can view or modify the subjects, assessments, or students’ results associated with that class.
+
+This page functions as a dashboard to organize and navigate school data by class level.
+
 
 
