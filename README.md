@@ -92,7 +92,7 @@ To run the project in your local environment, follow these steps:
 
 ## 📸 Screenshots
 
-<p align="center" style="margin: 20px 0;>
+<p align="center" style="margin: 20px 0;">
   <img src="assets/readme/Sign Up page.png" alt="Sign Up" width="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/readme/Sign In page.png" alt="Sign In" width="200" />
@@ -117,8 +117,6 @@ The clean and simple design provides an intuitive login experience.
 Users can authenticate using a personal security code.  
 The numeric keypad allows fast and secure input, while the delete button helps correct mistakes.  
 This method adds an extra layer of protection for quick access.
-
----
 
 <p align="center">
   <img src="assets/readme/Dashboard.png" alt="Dashboard" width="200" />
