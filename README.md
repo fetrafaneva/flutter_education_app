@@ -1,4 +1,4 @@
-# 🥷🏽 Flutter Education App
+# Flutter Education App
 
 This project is a mobile application for teachers built with Flutter.
 The application helps teachers manage educational activities such as classes, students, subjects, grades, and evaluations through a secure and easy-to-use mobile interface.
@@ -133,3 +133,14 @@ Class Management: Allows users to view and manage registered classes.
 Assessment Management: Helps organize and sort data related to student assessments.
 
 Results Management: Facilitates the storage and access to students’ results for better organization.
+
+<p align="center">
+  <img src="assets/readme/Dashboard class.png" alt="Sign Up" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
+  <img src="assets/readme/info_class.png" alt="Sign In" width="200" />
+</p>
+
+### Student Management Page
+
+This application page displays the management of a class (here, “Seconde”) with the total number of students (4) and a detailed list. Each student is presented with a number, their full name, and an icon for additional actions. At the bottom right, a floating action button allows adding a student, while icons at the top are used to manage options such as adding subjects to the corresponding class.
+
