@@ -144,3 +144,14 @@ Results Management: Facilitates the storage and access to students’ results fo
 
 This application page displays the management of a class (here, “Seconde”) with the total number of students (4) and a detailed list. Each student is presented with a number, their full name, and an icon for additional actions. At the bottom right, a floating action button allows adding a student, while icons at the top are used to manage options such as adding subjects to the corresponding class.
 
+
+
+<p align="center">
+  <img src="assets/readme/matiere.png" alt="Sign Up" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
+  <img src="assets/readme/evaluation.png" alt="Sign In" width="200" />
+</p>
+
+### Student Management Page
+Here is the Student Management Page and the Class Subject Management Page for a specific class.
+
