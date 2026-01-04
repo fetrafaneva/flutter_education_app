@@ -211,3 +211,12 @@ Student list:
 
 - Each student is listed by number and full name.
 
+<p align="center">
+  <img src="assets/readme/eleve result.png" alt="Sign Up" width="200" />
+</p>
+
+### Grade chart by assessment for a student.
+This section displays a student’s detailed academic performance, showing their grades by subject.
+It provides the overall average and the student’s rank within the class.
+A chart allows for a quick visualization of the student’s strengths and weaknesses.
+A button enables generating a PDF report for sharing or printing.
