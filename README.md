@@ -94,164 +94,152 @@ To run the project in your local environment, follow these steps:
 
 <p align="center">
   <img src="assets/readme/Sign Up page.png" alt="Sign Up" width="200" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/readme/Sign In page.png" alt="Sign In" width="200" />
 </p>
 
-The authentication page allows users to log in or sign up. Users can access their account easily using their email and password.
+### Authentication Pages
+The authentication pages allow users to log in or sign up easily using their email and password.  
+Two login methods are available to ensure accessibility and security.
 
 <p align="center">
-  <img src="assets/readme/auth PIN.png" alt="Sign Up" width="200" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
-  <img src="assets/readme/auth email.png" alt="Sign In" width="200" />
+  <img src="assets/readme/auth PIN.png" alt="PIN Login" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/readme/auth email.png" alt="Email Login" width="200" />
 </p>
 
-The application offers two types of login methods to ensure both accessibility and security for users.
+#### Email & Password Login
+Users can access the application by entering their email and password.  
+All required fields must be completed before tapping the **Log In** button.  
+The clean and simple design provides an intuitive login experience.
 
-### Email & Password Login
+#### Security Code (PIN) Login
+Users can authenticate using a personal security code.  
+The numeric keypad allows fast and secure input, while the delete button helps correct mistakes.  
+This method adds an extra layer of protection for quick access.
 
-This screen allows users to access the application by entering their email address and password.
-All required fields must be completed before tapping the “Log In” button.
-The simple and clean design provides an intuitive and user-friendly login experience.
-
-### Security Code Login
-
-This screen enables users to authenticate using a personal security code.
-The numeric keypad allows fast and secure input, while the delete button helps correct any mistakes.
-This method adds an extra layer of protection and is ideal for quick access.
+---
 
 <p align="center">
-  <img src="assets/readme/Dashboard.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/Dashboard.png" alt="Dashboard" width="200" />
 </p>
 
 ### Dashboard
+The dashboard serves as the main home page for organizing and managing educational data.  
+It offers three main sections:
 
-This is the application home page that serves as the main dashboard for organizing and managing education-related data. It offers three main features:
-
-Class Management: Allows users to view and manage registered classes.
-
-Assessment Management: Helps organize and sort data related to student assessments.
-
-Results Management: Facilitates the storage and access to students’ results for better organization.
+- **Class Management:** View and manage registered classes.  
+- **Assessment Management:** Organize and track student assessments.  
+- **Results Management:** Access and manage students’ results efficiently.
 
 <p align="center">
-  <img src="assets/readme/Dashboard class.png" alt="Sign Up" width="200" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
-  <img src="assets/readme/info_class.png" alt="Sign In" width="200" />
+  <img src="assets/readme/Dashboard class.png" alt="Class Dashboard" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/readme/info_class.png" alt="Class Info" width="200" />
 </p>
 
 ### Student Management Page
-
-This application page displays the management of a class (here, “Seconde”) with the total number of students (4) and a detailed list. Each student is presented with a number, their full name, and an icon for additional actions. At the bottom right, a floating action button allows adding a student, while icons at the top are used to manage options such as adding subjects to the corresponding class.
-
-
+This page displays the details of a class (e.g., “Seconde”) with the total number of students and a detailed list.  
+Each student is presented with a number, full name, and an icon for additional actions.  
+A floating action button at the bottom right allows adding new students, while top icons manage class-specific options, such as adding subjects.
 
 <p align="center">
-  <img src="assets/readme/matiere.png" alt="Sign Up" width="200" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
-  <img src="assets/readme/evaluation.png" alt="Sign In" width="200" />
+  <img src="assets/readme/matiere.png" alt="Subjects" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/readme/evaluation.png" alt="Assessments" width="200" />
 </p>
 
-### Subject and Assessment Management Page
-Here is the Assessment Management Page and the Class Subject Management Page for a specific class.
+### Subject & Assessment Management
+Manage subjects and assessments for a specific class.  
+This allows organizing class content and tracking student performance efficiently.
 
 <p align="center">
-  <img src="assets/readme/note.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/note.png" alt="Add Grade" width="200" />
 </p>
 
-### Interface for adding a grade for a student.
-This feature allows teachers to add a grade for a student. The user can select the subject and semester, enter the student’s score, and add a comment. Once validated, the grade is saved to help track and manage student academic performance efficiently.
+### Adding a Student’s Grade
+Teachers can add grades for students by selecting the subject and semester, entering the score, and adding comments.  
+Once validated, the grade is saved to track academic performance efficiently.
 
 <p align="center">
-  <img src="assets/readme/info_eleve.png" alt="Sign Up" width="200" />
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- espace entre les images -->
-  <img src="assets/readme/info_eleve2.png" alt="Sign In" width="200" />
+  <img src="assets/readme/info_eleve.png" alt="Student Info" width="200" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/readme/info_eleve2.png" alt="Student Grades" width="200" />
 </p>
 
-### Page for displaying a student’s grades and information.
-This section displays a student’s grade tracking with the student’s name shown at the top. A table lists the subjects and their corresponding grades, with icons to edit or delete each grade. A selector allows the user to choose the assessment, and a floating action button at the bottom right is used to add a new grade. The interface is clear and easy to use.
+### Student Details Page
+Displays a student’s grades and information.  
+- The student’s name appears at the top.  
+- A table lists subjects with corresponding grades, with icons to edit or delete grades.  
+- A selector allows choosing the assessment, and a floating action button lets users add new grades.
 
 <p align="center">
-  <img src="assets/readme/School results.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/School results.png" alt="Class Results Dashboard" width="200" />
 </p>
 
-### Class Results Management Page.
-The purpose of this section is to provide an interface for managing the academic results of different classes. It allows the user to:
+### Class Results Management
+Provides an interface to manage academic results of different classes:  
 
-View general class information:
+- **View general class information:**  
+  - Number of subjects  
+  - Current school year  
+  - Total number of students  
 
-- The number of subjects associated with each class.
+- **Access class-specific management:**  
+  - View or modify subjects, assessments, or students’ results  
 
-- The current school year.
-
-- The total number of students per class.
-
-Access specific management for each class:
-
-- By selecting a class, the user can view or modify the subjects, assessments, or students’ results associated with that class.
-
-This page functions as a dashboard to organize and navigate school data by class level.
+This page serves as a dashboard to navigate school data by class level.
 
 <p align="center">
-  <img src="assets/readme/class result.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/class result.png" alt="Class Results" width="200" />
 </p>
 
-### Student Results Management Page.
-The main features it offers are:
+### Student Results Management
+Features include:
 
-Display of general class information:
-
-- Number of subjects taught in this class.
-
-- Current school year.
-
-- Number of students enrolled in the class.
-
-Student list:
-
-- Each student is listed by number and full name.
+- Displaying general class information: subjects, school year, and total students  
+- Listing students by number and full name  
 
 <p align="center">
-  <img src="assets/readme/eleve result.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/eleve result.png" alt="Student Results" width="200" />
 </p>
 
-### Grade chart by assessment for a student.
-This section displays a student’s detailed academic performance, showing their grades by subject.
-It provides the overall average and the student’s rank within the class.
-A chart allows for a quick visualization of the student’s strengths and weaknesses.
-A button enables generating a PDF report for sharing or printing.
+### Student Grade Chart
+Displays a student’s detailed academic performance:  
+- Grades per subject  
+- Overall average and class rank  
+- Visual chart for strengths and weaknesses  
+- Option to generate a PDF report for sharing or printing
 
 <p align="center">
-  <img src="assets/readme/search page.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/search page.png" alt="Student Search" width="200" />
 </p>
 
-### Student search page.
-This page allows users to search for a student by name, ID, or other criteria.
-It displays the search results in a clear list, making it easy to select a student and access their detailed information.
+### Student Search Page
+Allows searching for students by name, ID, or other criteria.  
+Search results are displayed in a clear list for easy selection and access to detailed information.
 
 <p align="center">
-  <img src="assets/readme/memo section.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/memo section.png" alt="Notes / Memo" width="200" />
 </p>
 
 ### Notes / Memo Page
-This page allows users to create, view, and manage notes or memos.
-Users can quickly add new notes, edit existing ones, or delete notes they no longer need.
-The interface ensures that all notes are easily accessible and organized for quick reference.
+Allows users to create, view, and manage notes or memos.  
+Users can quickly add, edit, or delete notes, keeping all information organized and easily accessible.
 
 <p align="center">
-  <img src="assets/readme/file share.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/file share.png" alt="Data Import & Export" width="200" />
 </p>
 
 ### Data Import & Export Page
-This page allows users to import and export data easily.
-Users can upload data files to update the system or download existing data for backup, sharing, or offline use.
-The interface ensures a smooth and secure process for managing data transfers.
+Enables users to import or export data files easily.  
+Users can upload files to update the system or download data for backup, sharing, or offline use.  
+The interface ensures smooth and secure data management.
 
 <p align="center">
-  <img src="assets/readme/help page.png" alt="Sign Up" width="200" />
+  <img src="assets/readme/help page.png" alt="Help Page" width="200" />
 </p>
 
 ### Application Help Page
-This page provides users with guidance on how to use the application.
-It includes instructions, tips, and explanations of the features to ensure a smooth and effective user experience.
-Users can quickly find answers to common questions and understand how to navigate the app efficiently.
+Provides guidance on using the application, including instructions, tips, and explanations of features.  
+Users can quickly find answers to common questions and navigate the app efficiently.
