@@ -119,3 +119,14 @@ The simple and clean design provides an intuitive and user-friendly login experi
 This screen enables users to authenticate using a personal security code.
 The numeric keypad allows fast and secure input, while the delete button helps correct any mistakes.
 This method adds an extra layer of protection and is ideal for quick access.
+
+<p align="center">
+  <img src="assets/readme/Dashboard.png" alt="Sign Up" width="200" />
+</p>
+### Dashboard
+
+This is the application home page that serves as the main dashboard for organizing and managing education-related data. It offers three main features:
+
+Class Management: Allows users to view and manage registered classes.
+Assessment Management: Helps organize and sort data related to student assessments.
+Results Management: Facilitates the storage and access to students’ results for better organization.
