@@ -3,7 +3,6 @@
 </p>
 
 
-# Flutter Education App
 
 This project is a mobile application for teachers built with Flutter.
 The application helps teachers manage educational activities such as classes, students, subjects, grades, and evaluations through a secure and easy-to-use mobile interface.
