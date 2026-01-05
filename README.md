@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/readme/School results.png" alt="Class Results Dashboard" width="full" />
+  <img src="assets/readme/couverture.png" alt="Class Results Dashboard" width="full" />
 </p>
 
 
