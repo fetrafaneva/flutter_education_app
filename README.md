@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/readme/School results.png" alt="Class Results Dashboard" width="full" />
+</p>
+
+
 # Flutter Education App
 
 This project is a mobile application for teachers built with Flutter.
